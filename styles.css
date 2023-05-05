@@ -1,0 +1,129 @@
+body {
+    padding: 5%;
+}
+
+.welcomeBackground {
+    background-image: url('public/images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #012A40;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.welcomeLeft {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 20%;
+}
+
+.welcomeRight {
+    text-align: left;
+    max-width: 400px;
+    margin-top: 6%;
+}
+
+.uniqueBtn {
+    background-color: white;
+    color: #012A40;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.about-container {
+    display: flex;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.about-left {
+    background-color: #3498DB;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-left h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    max-width: 60%;
+    text-align: center;
+}
+
+.about-left p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-right h2 {
+    color: #3498DB;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.about-right p {
+    color: #555555;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.contact-btn {
+    background-color: #3498DB;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #2581B6;
+}
